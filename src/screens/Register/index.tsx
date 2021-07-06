@@ -146,7 +146,7 @@ export function Register() {
               name="amount"
               control={control}
               placeholder="Preço"
-              keyboardType="numeric"
+              keyboardType="numbers-and-punctuation"
               error={errors.amount && errors.amount.message}
             />
 

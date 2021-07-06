@@ -29,6 +29,7 @@ border-right-width: 1px;
 export const Text = styled.Text`
 flex: 1;
 text-align: center;
+padding-right: 40px;
 
 font-family: ${({ theme }) => theme.fonts.medium};
 font-size: ${RFValue(14)}px;;
